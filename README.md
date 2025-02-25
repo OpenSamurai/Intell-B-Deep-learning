@@ -39,3 +39,4 @@ tensorboard --logdir=Data/Checkpoints/logs
   sudo pip3 install -r requirements.txt
   ```
 
+## can still be advanced and have higher scope 
