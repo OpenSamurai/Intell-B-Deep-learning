@@ -27,7 +27,7 @@ def train_model(model, train_dataset, validation_dataset):
         batch_size=batch_size,
         epochs=epochs,
         validation_data=validation_dataset,
-        shuffle=True,
+        shuffle=True,                       #fitting the dataset🦾🦾
         callbacks=checkpoints
     )
 
@@ -35,7 +35,7 @@ def train_model(model, train_dataset, validation_dataset):
 
 def main():
     # Get dataset
-    train_dataset, X_test, Y_test = get_dataset()  # Now expects 3 values
+    train_dataset, X_test, Y_test = get_dataset()  # Now expects 3 values 🤔
     
     # Create validation dataset
     validation_dataset = tf.data.Dataset.from_tensor_slices(
