@@ -5,6 +5,7 @@ If you have already trained the artificial intelligence model, follow these step
 
 1. Open the game.
 2. Run the following command in the terminal:
+   
    ```sh
    python3 ai.py
    ```
@@ -32,7 +33,7 @@ tensorboard --logdir=Data/Checkpoints/logs
 ```
 
 ## Important Notes
-- This implementation has been tested with **Python version 3.6.0**.
+- This implementation has been tested with **Python version 3.11.0**.
 - Install the required dependencies using:
   ```sh
   sudo pip3 install -r requirements.txt
