@@ -1,4 +1,4 @@
-# Playing with Artificial Intelligence
+
 
 ## Running the AI Model
 If you have already trained the artificial intelligence model, follow these steps to play your desired game:
