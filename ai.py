@@ -25,10 +25,10 @@ def main():
         screen = ImageGrab.grab()
         # Image to numpy array:
         screen = np.array(screen)
-        # 4 channel(PNG) to 3 channel(JPG)
+        # 4 channel(PNG) to 3 channel(JPG) 🤨
         Y = predict(model, screen)
         
-        # Convert model output to action array (modify this based on your actual class mapping)
+        # Convert model output to action array (modify this based on your actual class mapping)(did you get that🤔)
         action = np.argmax(Y)  # Get the predicted class index from 60 possible classes
         
         # Handle different actions based on the predicted class
@@ -41,10 +41,10 @@ def main():
             release(key)
         elif action == 2:  # Example: mouse action
             click(100, 200)  # Modify with actual coordinates
-        elif action == 3:  # Another action
-            # Add more actions as needed
+        elif action == 3:  
+         
             pass
-        # Add more cases for other actions...
+        
 
 if __name__ == '__main__':
     main()
