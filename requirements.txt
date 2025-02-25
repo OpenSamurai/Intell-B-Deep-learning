@@ -1,8 +1,0 @@
-numpy
-scikit-learn
-scikit-image
-pillow
-tensorflow
-keras
-pynput
-h5py
