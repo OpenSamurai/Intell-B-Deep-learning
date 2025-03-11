@@ -87,5 +87,5 @@ def add_data(table, adding):
     - adding (str): The values to insert, formatted as an SQL values string (e.g., "'John', 25").
     """
     vt, db = set_connect_and_cursor()  # Establish database connection and cursor
-    db.execute("INSERT INTO '{0}' VALUES ({1})".format(table, adding))  # Execute the insert command
+    db.execute("INSERT INTO '{0}' VALUES ({?})".format(table, adding))  # Execute the insert command
     close_connect(vt)  # Commit and close the connection
