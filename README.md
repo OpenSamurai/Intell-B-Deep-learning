@@ -38,4 +38,5 @@ tensorboard --logdir=Data/Checkpoints/logs
   ```sh
   sudo pip3 install -r requirements.txt
   ```
+  You can understand the code by reading the comments of the code written inside the code
 
